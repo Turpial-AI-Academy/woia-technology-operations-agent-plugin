@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-technology-operations",
+  "version": "0.5.0",
+  "description": "Operate technical bindings, access, health, backup and recovery under exact authority.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-technology-operations-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-technology-operations-agent-plugin",
+  "license": "MIT",
+  "keywords": ["agent-plugin", "woia-technology-operations"]
+}
