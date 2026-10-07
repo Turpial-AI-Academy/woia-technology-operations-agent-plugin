@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "action",
+    "organization",
+    "scope",
+    "resource_id",
+    "payload",
+    "expected_revision"
+  ],
+  "properties": {
+    "action": {
+      "enum": [
+        "technology.binding.read",
+        "technology.binding.apply",
+        "technology.access.apply",
+        "technology.access.revoke",
+        "technology.health.observe",
+        "technology.inventory.read",
+        "technology.backup.observe",
+        "technology.restore.execute",
+        "technology.change.execute",
+        "technology.recovery.reconcile"
+      ]
+    },
+    "organization": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resource_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effect_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "expected_revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}
