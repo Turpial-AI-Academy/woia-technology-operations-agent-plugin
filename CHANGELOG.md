@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.5.8] - 2026-10-10
+## 0.5.8 - 2026-10-10
 
 ### Changed
 
 - Remove the standalone-operation tooling rule from `AGENTS.md` capability rules and renumber the remaining rules.
 
-## [0.5.7] - 2026-10-09
+## 0.5.7 - 2026-10-09
 
 ### Published baseline
 
