@@ -2,7 +2,7 @@
   "schema": "dev.woia.provider-manifest/v1",
   "authoring_profile": "thin",
   "origin": "native",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "capability": "woia-technology-operations",
   "actions": [
     "technology.binding.read",
